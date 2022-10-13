@@ -2,7 +2,7 @@ package chap01;
 
 import java.util.Scanner;
 
-public class Q6 {
+public class Q06 {
 	//while문이 종료될 때 변수 i값이 n+1이 되는 확인
 	public static void main(String[] args) {
 		
