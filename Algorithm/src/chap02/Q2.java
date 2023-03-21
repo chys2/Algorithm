@@ -12,10 +12,15 @@ public class Q2 {
 
 	static void reverse(int[] a) {
 		for(int i = 0; i <a.length / 2;  i++) {
-			swap(a,i,a.length-i -1);
+			
+			System.out.println(Arrays.toString(a));
+			swap(a,i,a.length-i-1);
+			System.out.println("a["+i+"]과 a[" + (a.length-i-1) +"]을 교환합니다.");
+	
+			
 		}
 	}
-	
+	//배열 요소를 역순으로 정렬하는 과정을 하나하나 나타내는 프로그램을 작성하세요.
 	public static void main(String[] args) {
 	
 		Scanner stdId = new Scanner(System.in);
@@ -32,9 +37,9 @@ public class Q2 {
 		}
 		
 		reverse(x);
-		
-		System.out.println("요소를 역순으로 정렬했습니다.");
-		System.out.println("x= " + Arrays.toString(x));
+		System.out.println("역순 정렬을 마쳤습니다.");
+		//System.out.println("요소를 역순으로 정렬했습니다.");
+		//System.out.println("x= " + Arrays.toString(x));
 	}
 
 }
