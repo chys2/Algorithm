@@ -8,6 +8,7 @@ public class Q6A {
 	static int cardConvEx(int x, int r, char[] d) {
 		int n = ((Integer)x).toString().length();		// 변환 전의 자릿수
 		int digits = 0;								// 변환 후의 자릿수
+		
 		String dchar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 		System.out.printf(String.format("%%2d | %%%dd\n", n), r, x);
